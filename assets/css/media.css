@@ -1,0 +1,65 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --orange-color: #ff9900;
+    --grey-color: #cacaca;
+    --dark-color: #222;
+    --dark-grey-color: #414141;
+    --dark-orange-color: #E1670E;
+    --light-orange-color: #FFB84D;
+    --medium-grey-color: #666;
+  }
+  
+@media (max-width: 1600px) {
+  .rectangle {
+     padding: 35px 83px 72px 130px
+     
+    }
+}
+@media(max-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 75px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .main-logo {
+    width: 150px;
+  }
+  .about-boxes{
+    flex-direction: column;
+  }
+
+  .about-box-1 {
+    
+  }
+
+  .about-box-2 {
+    
+  }
+  
+
+  .abobu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abobus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .work{
+    margin-top: 1000px;
+  }
+
+  .footer__text {
+    display: none;
+  }
+}
