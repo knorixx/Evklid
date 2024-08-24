@@ -114,7 +114,7 @@ img {
 .main-logo{
     width: 1770px;
     height: 620px;
-    background: url(./assets/image/low-angle-photo-of-balconies-2462015.png);
+    background: url(/assets/image/low-angle-photo-of-balconies-2462015.png);
     margin-top: 50px;
 }
 .lm{
